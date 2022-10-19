@@ -9,6 +9,6 @@ module.exports = (req, res) => {
     })
     .catch((err) => {
       console.error(err);
-      res.status(500).send('Error retrieving- album from database');
+      res.status(500).send('Error retrieving album from database');
     });
 };
