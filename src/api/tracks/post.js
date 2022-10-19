@@ -13,6 +13,6 @@ module.exports = (req, res) => {
     })
     .catch((err) => {
       console.error(err);
-      res.status(500).send('Error saving album');
+      res.status(500).send('Error saving track');
     });
 };
